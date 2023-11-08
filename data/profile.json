@@ -1,0 +1,107 @@
+{
+  "nome": "Alrykemes Cavalcanti",
+  "titulo": "Estudante de Desenvolvimento Fullstack",
+  "localidade": {
+    "cidade": "Paulista",
+    "estado": "Pernambuco",
+    "pais": "Brasil"
+  },
+  "telefone": "(81) 99329-4126",
+  "email": "alrykemesgc@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "nome": "Html",
+        "logo": "TODO"
+      },
+      {
+        "nome": "Css",
+        "logo": "TODO"
+      },
+      {
+        "nome": "JavaScript",
+        "logo": "TODO"
+      }
+    ],
+    "hardSkillsAperfeicoamento": [
+      {
+        "nome": "Typescript",
+        "logo": "TODO"
+      },
+      {
+        "nome": "React",
+        "logo": "TODO"
+      }
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Empatia",
+      "Inteligência Emocional",
+      "Autodidata",
+      "Adaptabilidade"
+    ]
+  },
+  "idiomas": [
+    {
+      "nome": "Português",
+      "nivel": "Nativo"
+    },
+    {
+      "nome": "Inglês",
+      "nivel": "Intermediário"
+    },
+    {
+      "nome": "Espanhol",
+      "nivel": "Básico"
+    }
+  ],
+  "educacao": [
+    {
+      "nome": "dio.me",
+      "descricao": "Aprendizado contínuo na maior plataforma de educação aberta da América Latina.",
+      "instituicao": "Digital Innovation One (DIO)",
+      "periodo": {
+        "inicio": "2023",
+        "fim": "Atualmente"
+      },
+      "certificados": [
+        {
+          "nome": "Formação: JavaScript Developer",
+          "link": "https://www.dio.me/certificate/28601B02"
+        }
+      ]
+    },
+    {
+      "nome": "Curso Superior Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      "descricao": "",
+      "instituicao": "Instituto Federal de educação ciência e tecnologia de Pernambuco (IFPE) - Campus Paulista",
+      "periodo": {
+        "inicio": "2023",
+        "fim": "2026"
+      }
+    }
+  ],
+  "portfolio": [
+    {
+      "nome": "WebApi Characters Rick and Morty",
+      "gitHub": "https://github.com/https://github.com/Alrykemes/Characters-rickandmorty-WebApi",
+      "certificado": "https://www.dio.me/certificate/34F1FBA1"
+    },
+    {
+      "nome": "Gerador de senhas JS",
+      "gitHub": "https://github.com/Alrykemes/Gerador de Senhas",
+      "certificado": "https://www.dio.me/certificate/9A5090FC"
+    }
+  ],
+  "experiencias": [
+    {
+      "nome": "Procurando Estágio ou Vaga Desenvolvedor Júnior",
+      "descricao": "Minhas experiências por agora são somentes os projetos que produzi postados em meu Github",
+      "instituicao": "Digital Innovation One (DIO)",
+      "periodo": {
+        "inicio": "03/2021",
+        "fim": "Atualmente"
+      }
+    }
+  ]
+}
