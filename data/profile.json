@@ -13,25 +13,25 @@
     "hardSkills": [
       {
         "nome": "Html",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/Alrykemes/Js-developer-portifolio/2c4f1e6492f3bdcb4ddc45dd059c8cc4b9e1cae4/assets/img/icons/tools/html5.svg"
       },
       {
         "nome": "Css",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/Alrykemes/Js-developer-portifolio/2c4f1e6492f3bdcb4ddc45dd059c8cc4b9e1cae4/assets/img/icons/tools/css3.svg"
       },
       {
         "nome": "JavaScript",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/Alrykemes/Js-developer-portifolio/2c4f1e6492f3bdcb4ddc45dd059c8cc4b9e1cae4/assets/img/icons/tools/js.svg"
       }
     ],
     "hardSkillsAperfeicoamento": [
       {
         "nome": "Typescript",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/Alrykemes/Js-developer-portifolio/2c4f1e6492f3bdcb4ddc45dd059c8cc4b9e1cae4/assets/img/icons/tools/typescript.svg"
       },
       {
         "nome": "React",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/Alrykemes/Js-developer-portifolio/2c4f1e6492f3bdcb4ddc45dd059c8cc4b9e1cae4/assets/img/icons/tools/react.svg"
       }
     ],
     "softSkills": [
