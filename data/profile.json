@@ -39,6 +39,7 @@
       "Empatia",
       "Inteligência Emocional",
       "Autodidata",
+      "Trabalho em Equipe",
       "Adaptabilidade"
     ]
   },
@@ -77,8 +78,8 @@
       "descricao": "",
       "instituicao": "Instituto Federal de educação ciência e tecnologia de Pernambuco (IFPE) - Campus Paulista",
       "periodo": {
-        "inicio": "2023",
-        "fim": "2026"
+        "inicio": "06/2023 ",
+        "fim": " 06/2026"
       }
     }
   ],
@@ -86,12 +87,12 @@
     {
       "nome": "WebApi Characters Rick and Morty",
       "gitHub": "https://github.com/https://github.com/Alrykemes/Characters-rickandmorty-WebApi",
-      "certificado": "https://www.dio.me/certificate/34F1FBA1"
+      "certificado": "https://www.dio.me/certificate/"
     },
     {
       "nome": "Gerador de senhas JS",
       "gitHub": "https://github.com/Alrykemes/Gerador de Senhas",
-      "certificado": "https://www.dio.me/certificate/9A5090FC"
+      "certificado": "https://www.dio.me/certificate/"
     }
   ],
   "experiencias": [
@@ -100,7 +101,7 @@
       "descricao": "Minhas experiências por agora são somentes os projetos que produzi postados em meu Github",
       "instituicao": "Digital Innovation One (DIO)",
       "periodo": {
-        "inicio": "03/2021",
+        "inicio": "06/2023",
         "fim": "Atualmente"
       }
     }
