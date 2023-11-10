@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Renan J Paula</title>
+    <title>Portifólio Alrykemes Cavalcanti</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/acordeon.css">
     <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/formacao.css">
     <link rel="stylesheet" href="/assets/css/portfolio.css">
     <link rel="stylesheet" href="/assets/css/experience.css">
     <link rel="stylesheet" href="/assets/css/skills.css">
@@ -27,20 +28,20 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="/assets/img/my-photo.jpeg" alt="Foto de Renan J Paula" class="photo">
+            <img src="/assets/img/semfoto.png" alt="Foto de perfil" class="photo" id="profile.photo">
 
             <h1 class="title">
-                Olá, <br>eu sou Renan J Paula
+                Olá, Sou o <br><span id="profile.name">Carregando...</span>
             </h1>
 
             <div class="information">
-                <p class="job">Tech Lead no S3 Bank</p>
-                <p class="location">São Paulo - BR</p>
+                <p class="job"><span id="profile.title">Carregando...</span></p>
+                <p class="location"><span id="profile.location">Carregando...</span></p>
                 <p class="phone">
-                    <a href="tel:(16) 9 9999-9999">(16) 9 9999-9999</a>
+                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:ex@mail.com">ex@mail.com</a>
+                    <a href="mailto:ex@mail.com" id="profile.email">Carregando...</a>
                 </p>
             </div>
         </header>
@@ -53,31 +54,37 @@
             <div class="content">
                 <div class="skills">
                     <section class="tools">
-                        <h3>Ferramentas:</h3>
-                        <ul>
+                        <h3>Hard skills:</h3>
+                        <ul id="profile.hard.skills">
                             <li>
-                                <img src="/assets/img/icons/tools/nodejs.svg" alt="Nodejs" title="Nodejs">
+                                <img src="/assets/img/semfoto.png" alt="tecnologia" title="tecnologia">
                             </li>
                             <li>
-                                <img src="/assets/img/icons/tools/react.svg" alt="React" title="React">
+                                <img src="/assets/img/semfoto.png" alt="tecnologia" title="tecnologia">
                             </li>
                             <li>
-                                <img src="/assets/img/icons/tools/git.svg" alt="GIT" title="GIT">
-                            </li>
-                            <li>
-                                <img src="/assets/img/icons/tools/java.svg" alt="Java" title="Java">
+                                <img src="/assets/img/semfoto.png" alt="tecnologia" title="tecnologia">
                             </li>
                         </ul>
+                        <h3>Learning:</h3>
+                        <ul id="profile.hard.skills.aperfeicoamento">
+                            <li>
+                                <img src="/assets/img/semfoto.png" alt="tecnologia" title="tecnologia">
+                            </li>
+                            <li>
+                                <img src="/assets/img/semfoto.png" alt="tecnologia" title="tecnologia">
+                            </li>
+                            <li>
+                                <img src="/assets/img/semfoto.png" alt="tecnologia" title="tecnologia">
+                            </li>
                     </section>
 
                     <section class="personal">
-                        <h3>Pessoal:</h3>
-                        <ul>
-                            <li>Liderança</li>
-                            <li>Facilidade de comunicação</li>
-                            <li>Organização</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Flexibilidade</li>
+                        <h3>Soft Skills:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
                         </ul>
                     </section>
                 </div>
@@ -90,11 +97,31 @@
             </button>
 
             <div class="content">
-                <ul class="languages">
-                    <li>Português</li>
-                    <li>Ingles</li>
-                    <li>Italiano</li>
-                    <li>Espanhol</li>
+                <ul id="profile.languages" class="languages">
+                    <li>Carregando...</li>
+                    <li>Carregando...</li>
+                    <li>Carregando...</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Formação</h2>
+            </button>
+
+            <div class="content">
+                <ul id="profile.education" class="formacao">
+                    <li>
+                        <h3 class="title">Carregando...</h3>
+                        <p class="descricao">Carregando...</p>
+                        <p class="instituicao">Carregando...</p>
+                        <p class="period">
+                            <span id="inicio">Carregando... </span>
+                            -
+                            <span id="fim"> Carregando...</span>
+                        </p>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -105,18 +132,14 @@
             </button>
 
             <div class="content">
-                <ul class="portfolio">
+                <ul id="profile.portifolio" class="portfolio">
                     <li>
-                        <h3 class="title github">Criando um App de lembrete</h3>
-                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                        <h3 class="title github">Carregando...</h3>
+                        <a href="Carregando..." target="_blank">Carregando...</a>
                     </li>
                     <li>
-                        <h3 class="title github">Criando um App de lembrete</h3>
-                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
-                    </li>
-                    <li>
-                        <h3 class="title">Criando um App de lembrete</h3>
-                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                        <h3 class="title github">Carregando...</h3>
+                        <a href="Carregando..." target="_blank">Carregando...</a>
                     </li>
                 </ul>
             </div>
@@ -128,20 +151,10 @@
             </button>
 
             <div class="content">
-                <ul class="experience">
+                <ul id="profile.experiences" class="experience">
                     <li>
-                        <h3 class="title">Front-end Developer / dio.me</h3>
-                        <p class="period">Jan 2020 - Current</p>
-                        <p>
-                            Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est
-                            reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,
-                            iste.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 class="title">Front-end Developer / dio.me</h3>
-                        <p class="period">Jan 2020 - Current</p>
+                        <h3 class="title">Carregando...</h3>
+                        <p class="period">Carregando...</p>
                         <p>
                             Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est
                             reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,
@@ -154,6 +167,8 @@
     </main>
 
     <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/infoApi.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>
